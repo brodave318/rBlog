@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   attr_accessor :password
   before_save :encrypt_password
-  
+
   has_many :posts
 
   validates :name, presence: true
@@ -23,5 +23,9 @@ class User < ApplicationRecord
       self.password_salt = BCrypt::Engine.generate_salt
       self.password_hash = BCrypt::Engine.hash_secret(password, password_salt)
     end
+  end
+
+  def self.search(query)
+    where("name like ? OR email like ?", "%#{query}%", "%#{query}%")
   end
 end

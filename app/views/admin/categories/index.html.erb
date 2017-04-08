@@ -12,4 +12,5 @@
         <td><%= link_to "Edit", edit_admin_category_path(category), class: 'btn btn-primary' %> <%= link_to "Delete", admin_category_path(category), class: 'btn btn-danger', method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-  </table>
+  </table>  
+  <%= will_paginate @categories %>
