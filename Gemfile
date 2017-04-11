@@ -56,6 +56,8 @@ gem 'mail_form'
 gem 'simple_form'
 gem "will_paginate", '~>3.0'
 gem "paperclip", '~> 4.2'
+gem 'wysiwyg-rails'
+gem 'font-awesome-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
