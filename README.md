@@ -1,12 +1,13 @@
-
 # README
 
-Course: Learn Ruby on Rails by Building Projects
-Project: Building a Blogging System
-Instuctor: Eduonix Learning Solution (Brad Traversy)
-School: Stackskills
+Building a Blogging System from the course 'Learn Ruby on Rails by Building Projects' by Eduonix Learning Solutions -- Stackskills
 
-Bugs & Fixes
-
-# rBlog
-Stackskills >> Learn Ruby on Rails by Building Projects >> Building a Blogging System
+What I will learn in this project:
+* SQL3Lite database integration & console
+* MVC framework fundamentals
+* CRUD operations in Active Admin
+* Bootstrap-Sass Gems
+* File uploading
+* Text editor Gem
+* User login system
+* Search/filter & pagination
